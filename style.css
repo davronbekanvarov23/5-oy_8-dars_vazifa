@@ -1,0 +1,70 @@
+@font-face {
+  font-display: swap;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/livvic-v14-latin-500.woff2") format("woff2");
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-shadow: 0px 2px 42px 7px rgba(65, 241, 31, 0.75) inset;
+  -webkit-box-shadow: 0px 2px 42px 7px rgba(65, 241, 31, 0.75) inset;
+  -moz-box-shadow: 0px 2px 42px 7px rgba(65, 241, 31, 0.75) inset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Livvic", "sans-serif";
+}
+
+.container {
+  background-color: bisque;
+  border-radius: 20px;
+  padding: 50px;
+  margin-top: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 900px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  font-size: 32px;
+  background-color: green;
+  padding: 15px 50px;
+  border-radius: 8px;
+  border: none;
+  color: aliceblue;
+  cursor: pointer;
+}
+.amal {
+  padding: 15px;
+}
+.time{font-size: 30px;}
+.btn-rastart {
+  background-color: blueviolet;
+  color: greenyellow;
+}
+.title {
+  background-color: #9b8f8f;
+  max-width: 500px;
+  width: 100%;
+  color: greenyellow;
+  text-align: center;
+  font-size: 50px;
+  padding: 40px;
+  border-radius: 22px;
+}
